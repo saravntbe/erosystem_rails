@@ -1,0 +1,58 @@
+           
+                <h1 class="h1m"><a href="#" title="HomePage">Erosystems</a></h1>
+
+
+
+
+
+<%= form_tag "reply_mai", class:'ejax',id:'myfm'  do %>
+                            
+                            <div class="ft_iem">
+                                <input type="email" name="email" placeholder="Enter Email ID To Send" required>
+                            </div>
+                            <div class="ft_iem">
+                                <input type="text" name="subject" placeholder="Sublect" required>
+                            </div>
+                            <div class="ft_iem">
+                                <textarea type="textarea" name="message" placeholder="Message" required></textarea>
+                            </div>
+                            <div class="ft_iem ">
+                                <%= submit_tag 'SendMail', class:"ft_btn ft_ml" %>
+                            </div>
+<% end %>
+
+
+<footer id="footer1" class="footer1">
+    <hr class='hr1'>
+    <hr class='hr2'>
+    
+                <section class="ft_crdt">
+                    <article class="ft_crd_lnk">
+                        <p>Engineerd with &hearts; in INDIA</p>
+                        <%time = Time.new%>
+                        <p>&copy;<%=time.year%>.Erosystem.All Rights Reserved</p>
+                        <p id="fs">Site designed and Developed by <a href="http://blueflameindia.tk" title="Blueflame">Blueflame Ltd (p)</a> - Saravanan.T,CEO.
+                        <p>
+                    </article>
+                </section>
+        </footer>
+
+        <div class="good">!Sending</div>
+
+
+
+        
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        
+         <script>
+            var _gaq=[['_setAccount','UA-43577200-1'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src='//www.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+         </script>
+
